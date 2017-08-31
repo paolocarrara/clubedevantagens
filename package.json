@@ -11,7 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.2",
-    "http-client": "^4.3.1",
     "js2xmlparser": "^3.0.0"
   }
 }
