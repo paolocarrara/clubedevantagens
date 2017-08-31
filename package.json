@@ -1,6 +1,6 @@
 {
   "name": "clubedevantagens",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,12 +9,12 @@
   "author": "Paolo Carrara <paolocarraratux@gmail.com>",
   "homepage": "https://github.com/paolocarrara/clubedevantagens",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/paolocarrara/clubedevantagens"
+    "type": "git",
+    "url": "https://github.com/paolocarrara/clubedevantagens"
   },
   "bugs": {
-    "url" : "https://github.com/paolocarrara/clubedevantagens/issues",
-    "email" : "paolocarraratux@gmail.com"
+    "url": "https://github.com/paolocarrara/clubedevantagens/issues",
+    "email": "paolocarraratux@gmail.com"
   },
   "license": "ISC",
   "dependencies": {
