@@ -8,6 +8,14 @@
   },
   "author": "Paolo Carrara <paolocarraratux@gmail.com>",
   "homepage": "https://github.com/paolocarrara/clubedevantagens",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/paolocarrara/clubedevantagens"
+  },
+  "bugs": {
+    "url" : "https://github.com/paolocarrara/clubedevantagens/issues",
+    "email" : "paolocarraratux@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.2",
