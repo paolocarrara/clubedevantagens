@@ -38,3 +38,9 @@ Registers an user.
 ```javascript
 clubedevantagens.clienteCadastrar('User full name', 'User email', 'User CPF', 'User cellphone', 'User birth date', 'User gender', 'User state', 'User city', 'User password');
 ```
+
+#### clienteAutenticar
+Verifies if the user with the given email and password is registered
+```javascript
+clubedevantagens.clienteAutenticar('User email, User password');
+```

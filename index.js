@@ -103,7 +103,7 @@ module.exports = (function () {
 	}
 
 	/**
-	 * Authenticates the given email and password.
+	 * Verifies if the user with the given email and password is registered.
 	 *
 	 * @param email Email to be authenticated.
 	 * @param senha Password to be authenticated.
