@@ -191,11 +191,11 @@ module.exports = (function () {
 	}
 
 	/**
-	 * Lists offers based on an search term.
+	 * Lists offers based on a search term.
 	 *
 	 * @param limit Length of each page.
 	 * @param offset Page number.
-	 * @param uf State.
+	 * @param uf State abbreviation.
 	 * @param codigoCategoria Category code.
 	 * @param urlCategoria Category url.
 	 * @param termoDeBusca Search term.
