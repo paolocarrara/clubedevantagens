@@ -173,6 +173,16 @@ module.exports = (function () {
 		return post('/cliente/recuperar-senha', data, xmlClienteRoot);
 	}
 
+	let clienteRemover = function (
+		codigo = ''
+	) {
+		let data = {
+			codigo: codigo
+		};
+
+		return post('/cliente/remover', data, xmlClienteRoot);
+	}
+
 	/**
 	 * Gets the details of an offer.
 	 *
@@ -403,6 +413,7 @@ module.exports = (function () {
 		clienteAutenticar: clienteAutenticar,
 		clienteCadastrar: clienteCadastrar,
 		clienteRecuperarSenha, clienteRecuperarSenha,
+		clienteRemover: clienteRemover,
 
 		ofertaCodigo: ofertaCodigo,
 		ofertaBuscar: ofertaBuscar,
