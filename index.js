@@ -18,7 +18,7 @@ module.exports = (function () {
 
 	// Http client.
 	var client = axios.create({
-	  baseURL: 'http://fattoria-app.com.br/clubeAPIWS',
+	  baseURL: 'https://zonaazulapi.fattoria-europ.com.br',
 	  timeout: 30000,
 	  headers: {
 			'Content-Type': 'application/xml'
